@@ -1,0 +1,8 @@
+{% set groups = h.get_featured_groups(100) %}
+
+<h1 style="color: #000"> Grupos </h1>
+<ul class="thumbnails">
+	{% for group in groups %}
+	    {% snippet 'snippets/group_item.html', group=group, truncate=50, truncate_title=35 %}
+	{% endfor %}
+</ul>

@@ -1,0 +1,149 @@
+/* Barra de navegaçao */
+.masthead {
+  color: #A6B3C2;
+  background: #00548D;
+  padding-top: 10px;
+}
+
+.account-masthead {
+  background: #00548D;
+}
+
+.account-masthead .account ul li {
+  border-left: none;
+}
+
+.account-masthead .account ul li a {
+  color: #FFF;
+}
+
+.account-masthead .account ul li a:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.masthead .nav > li > a,
+.masthead .nav > li > a:focus,
+.masthead .nav > .active > a,
+.masthead .nav > .active > a:focus {
+  color: #FFF;
+}
+
+.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+/* Pesquisa pagina inicial*/
+.homepage .module-search .module-content {
+  padding: 35px;
+  background: #737373;
+  color: #FFF;
+}
+
+.homepage .module-search .tags {
+  background: #737373;
+  color: #FFF;
+  border-top: 1px solid #D8E1EA;
+}
+
+[role=main] {
+    min-height: 0px;
+}
+
+/* Grupos pagina inicial*/
+.content-groups ul li a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.content-groups span{
+	padding: 10px;
+}
+
+.content-groups ul li:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+/* Estatisticas pagina inicial */
+.content-statistics ul li a b {
+    font-size: 60px;
+    color: #000;
+    font-weight: bold;
+    line-height: normal;
+    display: block;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+    text-align: center;
+}
+
+.list-inline a {
+    color: #000;
+}
+
+
+/* Footer */
+.site-footer {
+  background: #00548D none repeat scroll 0 0;
+}
+
+.site-footer, .site-footer label, .site-footer small {
+  color: #FFF;
+}
+
+.site-footer a {
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+.footer-institution ul {
+  list-style: none;
+}
+
+.footer-institution ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.footer-institution ul li:first-child {
+  border-right: 2px solid #FFF;
+}
+
+.footer-institution ul li a {
+  display: block;
+}
+
+
+/* Responsividade */
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content-groups ul li {
+    width: 35%;
+  }
+
+  header, .container, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper {
+    margin: 0;
+    border-radius: 5px;
+    border-width: initial;
+  }
+
+  [role=main], .main{
+    background: #eeeeee;
+  }
+}
