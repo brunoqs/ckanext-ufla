@@ -1,0 +1,16 @@
+{% ckan_extends %}
+
+{% block secondary_content %}
+  {% block info_module %}
+    <section class="module module-narrow module-shallow">
+      <h2 class="module-heading"><i class="fa fa-info-circle"></i> {{ _('What are datasets?') }}</h2>
+      <div class="module-content">
+        <p>
+          {% trans %}
+						Um conjunto de dados é uma coleção de recursos de dados (como arquivos), unidos com uma descrição e outras informações, em uma URL fixa. Conjuntos de dados são o que usuários visualizam quando estão buscando dados.
+	        {% endtrans %}
+        </p>
+      </div>
+    </section>
+  {% endblock %}
+{% endblock %}
